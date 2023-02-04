@@ -9,6 +9,17 @@ print(f"Ваши данные для входа в аккаунт: имя - {nam
 
 # задача 2
 
+n=0
+while n<=0:
+    print("Введите целое положительное число n")
+    n=int(input())
+sum=n + n **  2 + n ** 3
+print(f"n + nn + nnn = {sum}")
+
+print("Введите время в секундах")
+timeInSeconds = int(input())
+print(f"Время в формате ч:м:с - {float(timeInSeconds // 3600)} : {float(timeInSeconds // 60)} : {timeInSeconds}")
+
 # задача 3
 
 n=0
